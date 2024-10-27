@@ -19,7 +19,7 @@
   ],
 
   "mainHero": {
-    "title": "PhishSafe",
+    "title": "Phinding Nemo",
     "description": "Discovered a new phishing email? Submit the email below for the it to be incorporated in our phishing detector software for future use.",
     "primaryAction": {
       "Typewriter": "Protect your inbox"
