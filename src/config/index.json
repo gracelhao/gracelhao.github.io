@@ -5,85 +5,63 @@
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "Download Extension",
       "href": "product"
     },
     {
       "name": "Features",
       "href": "features"
     },
-
     {
-      "name": "Pricing",
+      "name": "Sign In",
       "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
+
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "PhishSafe",
+    "description": "Discovered a new phishing email? Submit the email below for the it to be incorporated in our phishing detector software for future use.",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
-    },
-    "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "Typewriter": "Protect your inbox"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Download the Chrome Extension",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Utilize an extension that incorporates advanced algorithms to identify and warn you about potential phishing attempts, ensuring your personal information "
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Latest features",
+    "subtitle": "What the Extension Offers",
+    "description": "",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Real-Time Protection",
+        "description": "Receive immediate alerts for suspicious emails through the extension which analyzes sender information and email content to detect for red flags.",
+        "icon": "/assets/images/Check_mark_(blue).svg"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "User-Friendly Interface",
+        "description": "Seamless integration of the extension into the browser, allowing for an intuitive interface that's easy to use.",
+        "icon": "/assets/images/Check_mark_(blue).svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Regular Updates",
+        "description": "Stay safe with regular updates to the algorithm that enhance detection capabilities, allowing for the detector to continuously evolve with increasing online threats. ",
+        "icon": "/assets/images/Check_mark_(blue).svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "User-Input Inclusive Algorithm",
+        "description": "Allows for users to report suspected phishing emails to refine the algorithm to allow for the detector to continuously evolve with increasing online threats.",
+        "icon": "/assets/images/Check_mark_(blue).svg"
       }
     ]
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "Sign In",
     "items": [
       {
         "name": "Free",
@@ -124,22 +102,22 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Download Extension",
+        "href": "product",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
+        "name": "Features",
+        "href": "features",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
+        "name": "User Guide",
+        "href": "pricing",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "Sign In",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }

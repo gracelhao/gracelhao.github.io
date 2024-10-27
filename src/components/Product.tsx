@@ -5,7 +5,9 @@ import Divider from './Divider';
 
 const Product = () => {
   const { product } = config;
-  const [firstItem, secondItem] = product.items;
+  const [firstItem] = product.items;
+  const downloadURL =
+    'https://drive.google.com/uc?id=1KhY6kqagczQ4jngia-drpvL4iRpPHoHt';
 
   return (
     <section className={`bg-background py-8`} id="product">
@@ -23,42 +25,23 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
-        <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
-            <h3
-              className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
-            >
-              {firstItem?.title}
-            </h3>
-            <p className={`text-gray-600`}>{firstItem?.description}</p>
-          </div>
-          <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={firstItem?.img}
-              alt={firstItem?.title}
-            />
-          </div>
+        {/* <div className={`flex flex-wrap w-full`}> */}
+        <div className={`w-full text-center p-6 mt-2`}>
+          <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-3`}>
+            {firstItem?.title}
+          </h3>
+
+          {/* Download Button */}
+          <a
+            href={downloadURL}
+            download
+            className={`mt-4 inline-block bg-primary text-white py-2 px-20 rounded`}
+          >
+            Download Extension
+          </a>
         </div>
-        <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
-          <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={secondItem?.img}
-              alt={secondItem?.title}
-            />
-          </div>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
-            <div className={`align-middle`}>
-              <h3
-                className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
-              >
-                {secondItem?.title}
-              </h3>
-              <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
-            </div>
-          </div>
-        </div>
+
+        {/* </div> */}
       </div>
     </section>
   );
